@@ -45,3 +45,11 @@ Install Node.js 20+, run `npm install`, copy `.env.example` to `.env` and fill i
 - Every displayed reward is labelled as a demo reward; no actual Robux are granted.
 - Admin login has animated access-denied glitch and success welcome overlay. Correct admin password is validated server-side via ADMIN_PASSWORD; do not hardcode secrets in the repository.
 - Node.js engine pinned to 22.x.
+
+
+## Latest visual/task update (2026-10-11)
+- Uses the three images supplied by the project owner as the rotating page backgrounds; slides change every five seconds with a smooth fade.
+- Game cards are Blox Fruits, Rivals, Steal an Egg, and JJS with the configured demo progress schedules.
+- Matrix animation now includes streams moving both down and up with occasional bright digits.
+- Successful admin authentication uses a zoom-in success overlay and correct success speech; failed attempts use a stronger glitch overlay and denial speech.
+- Rewards/progress are demo tracking only and do not verify gameplay or provide Robux.
